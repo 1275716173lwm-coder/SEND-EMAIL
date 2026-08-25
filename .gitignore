@@ -1,6 +1,7 @@
 # Large local installers
 *.exe
 *.msix
+!dist/SEND-EMAIL.exe
 
 # Python cache and local environments
 __pycache__/
@@ -10,3 +11,7 @@ venv/
 
 # Local secrets
 .env
+
+# Build output
+build/
+*.spec
