@@ -1,0 +1,12 @@
+# Large local installers
+*.exe
+*.msix
+
+# Python cache and local environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Local secrets
+.env
